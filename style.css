@@ -1,66 +1,59 @@
 body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fdfdfd;
-      color: #222;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
 header {
-      background-color: #ffe9ec;
-      color: #333;
-      padding: 2rem;
-      text-align: center;
-    }
-    
+  background-color: #ffe4ec;
+  padding: 2rem;
+  text-align: center;
+}
+
 header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
 header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-    }
-    
+  margin: 0.3rem 0;
+}
+
+header a {
+  color: #c73669;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    
-section {
-      margin-bottom: 2.5rem;
-    }
-    
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
 h2 {
-      border-bottom: 2px solid #ffd5de;
-      padding-bottom: 0.3rem;
-      color: #d14c6d;
-    }
-    
+  border-bottom: 2px solid #ffc5d6;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  color: #c73669;
+}
+
 ul {
-      list-style-type: disc;
-      margin-left: 1.5rem;
-    }
-    
-.project {
-      margin-bottom: 1rem;
-    }
-    
-.footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #ffe9ec;
-    }
-    
-.footer a {
-      color: #d14c6d;
-      text-decoration: none;
-    }
-    
-.highlight {
-      font-weight: bold;
-      color: #d14c6d;
-    }
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+footer {
+  background-color: #ffe4ec;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #c73669;
+  font-weight: bold;
+}
